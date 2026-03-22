@@ -4,8 +4,8 @@
   "relative_line_numbers": "enabled",
   "vertical_scroll_margin": 10,
 
-  "icon_theme": "Colored Zed Icons Theme Dark",
-  "theme": "Tokyo Night",
+  "icon_theme": "Material Icon Theme",
+  "theme": "Modest Dark",
 
   "buffer_font_family": "JetBrainsMonoNL Nerd Font Propo",
   "buffer_font_weight": 500,
@@ -98,6 +98,8 @@
   },
 
   "git": { "inline_blame": { "enabled": false } },
+  "diff_view_style": "unified",
+
   "edit_predictions": { "provider": "zed" },
   "show_edit_predictions": true,
 
