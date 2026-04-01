@@ -3,29 +3,32 @@
 	ignorecase = false
 	pager = delta
 
-[interactive]
-	diffFilter = delta --color-only
+[init]
+	defaultBranch = main
+
+[diff]
+	colorMoved = default
 
 [delta]
 	navigate = true
 	line-numbers = true
 	tabs = 2
 
+[interactive]
+	diffFilter = delta --color-only
+
 [merge]
 	conflictStyle = zdiff3
 
-[diff]
-	colorMoved = default
-
-[init]
-	defaultBranch = main
+[rerere]
+	enabled = true
 
 [fetch]
 	prune = true
 
 [pull]
-	rebase = false
 	default = current
+	rebase = false
 
 [push]
 	default = current
