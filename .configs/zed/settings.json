@@ -4,8 +4,16 @@
   "relative_line_numbers": "enabled",
   "vertical_scroll_margin": 10,
 
-  "icon_theme": "Material Icon Theme",
-  "theme": "Modest Dark",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme",
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark",
+  },
 
   "buffer_font_family": "JetBrainsMonoNL Nerd Font Propo",
   "buffer_font_weight": 500,
